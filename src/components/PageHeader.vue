@@ -32,7 +32,7 @@ export default {
         </nav>
     </header>
 </template>
-<style>
+<style scoped>
 .col-6 {
     height: 100px;
     display: flex;
