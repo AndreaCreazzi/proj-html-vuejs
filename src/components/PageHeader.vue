@@ -20,7 +20,7 @@ export default {
                 <div class="col-6 start">
                     <ul class="d-flex m-0 p-0">
                         <li class="list-unstyled mx-2" v-for="option in navbarOptions" :key="option.text"><a
-                                :url="option.url">{{
+                                :class="{ 'active': option.current }" :url="option.url">{{
                                     option.text }}</a></li>
                     </ul>
                 </div>
@@ -38,5 +38,17 @@ export default {
 
 .start {
     justify-content: start;
+}
+
+ul li a {
+    text-decoration: none;
+    color: black;
+    padding-bottom: 0.5rem;
+    font-weight: bold;
+}
+
+ul li a:hover,
+.active {
+    border-bottom: 2px solid #fcb900;
 }
 </style>
