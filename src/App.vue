@@ -6,7 +6,7 @@ export default {
   components: { PageHeader, PageMain, PageFooter },
   data() {
     return {
-      logoHeader: "./assets/images/MasterStudy-1.svg",
+      logoHeader: "MasterStudy-1.svg",
       navbarOptions: [
         {
           text: 'Courses',
