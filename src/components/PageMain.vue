@@ -5,8 +5,9 @@ import PageCard from './PageCard.vue'
 import PageAdv from './PageAdv.vue';
 import PageCourses from './PageCourses.vue'
 import PageStats from './PageStats.vue';
+import PageStudents from './PageStudents.vue';
 export default {
-    components: { PageJumbo, PageDescription, PageCard, PageAdv, PageCourses, PageStats },
+    components: { PageJumbo, PageDescription, PageCard, PageAdv, PageCourses, PageStats, PageStudents },
     data() {
         return {}
     }
@@ -26,6 +27,8 @@ export default {
         <PageCourses />
         <!-- section stats -->
         <PageStats />
+        <!-- section students -->
+        <PageStudents />
     </main>
 </template>
 <style scoped></style>
