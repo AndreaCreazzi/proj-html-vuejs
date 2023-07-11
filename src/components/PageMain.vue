@@ -17,6 +17,7 @@ export default {
         <PageDescription />
         <!-- section card -->
         <PageCard />
+        <!-- section advertising -->
     </main>
 </template>
 <style scoped></style>

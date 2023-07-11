@@ -7,14 +7,16 @@ export default {
 }
 </script>
 <template>
-    <section id="card">
+    <section id="card-main">
         <h2 class="text-center py-5">New courses</h2>
         <div class="container">
             <div class="row height">
-                <div class="col-4 d-flex justify-content-end align-items-start">
+                <div class="col-4 d-flex justify-content-end align-items-start p-0">
                     <div class="card" style="width: 18rem;">
-                        <img src="../assets/images/photo-1496307042754-b4aa456c4a2d-370x200.jpeg" class="card-img-top"
-                            alt="...">
+                        <img src="../assets/images/photo-1496307042754-b4aa456c4a2d-370x200.jpeg"
+                            class="card-img-top banner-image" alt="...">
+                        <p class="banner">SPECIAL</p>
+                        <h4 class="banner-price">$59</h4>
                         <div class="card-body">
                             <h5 class="card-title text-center">How to be a DJ? Make Eletronic Music</h5>
                             <p class="card-text text-center course">Eletronic</p>
@@ -36,9 +38,11 @@ export default {
                         </div>
                     </div>
                 </div>
-                <div class="col-4 d-flex justify-content-center align-items-start">
+                <div class="col-4 d-flex justify-content-center align-items-start p-0">
                     <div class="card" style="width: 18rem;">
-                        <img src="../assets/images/12345-1-370x200.png" class="card-img-top" alt="...">
+                        <img src="../assets/images/12345-1-370x200.png" class="card-img-top banner-image" alt="...">
+                        <p class="banner">SPECIAL</p>
+                        <h4 class="banner-price">$76</h4>
                         <div class="card-body">
                             <h5 class="card-title text-center">Nvidia and UE4 Techonolgies Practice</h5>
                             <p class="card-text text-center course">Nvidia</p>
@@ -60,10 +64,12 @@ export default {
                         </div>
                     </div>
                 </div>
-                <div class="col-4 d-flex justify-content-start align-items-start">
+                <div class="col-4 d-flex justify-content-start align-items-start p-0">
                     <div class="card" style="width: 18rem;">
-                        <img src="../assets/images/photo-1491897554428-130a60dd4757-370x200.jpeg" class="card-img-top"
-                            alt="...">
+                        <img src="../assets/images/photo-1491897554428-130a60dd4757-370x200.jpeg"
+                            class="card-img-top banner-image" alt="...">
+                        <p class="banner">SPECIAL</p>
+                        <h4 class="banner-price">$43</h4>
                         <div class="card-body">
                             <h5 class="card-title text-center">Fashion Photography from professional</h5>
                             <p class="card-text text-center course">Fashion</p>
@@ -85,10 +91,11 @@ export default {
                         </div>
                     </div>
                 </div>
-                <div class="col-4 d-flex justify-content-end align-items-start">
+                <div class="col-4 d-flex justify-content-end align-items-start p-0">
                     <div class="card" style="width: 18rem;">
-                        <img src="../assets/images/photo-1416339134316-0e91dc9ded92-370x200.jpeg" class="card-img-top"
-                            alt="...">
+                        <img src="../assets/images/photo-1416339134316-0e91dc9ded92-370x200.jpeg"
+                            class="card-img-top banner-image" alt="...">
+                        <h4 class="banner-price">$61</h4>
                         <div class="card-body">
                             <h5 class="card-title text-center">Design Instruments for Communication</h5>
                             <p class="card-text text-center course">Communication</p>
@@ -98,7 +105,7 @@ export default {
                                     <i class="fa-solid fa-signal me-1"></i>
                                     <p class="m-0 sub-text">Intermediate</p>
                                 </div>
-                                <div class="col-4 d-flex align-items-center ps-1">
+                                <div class="col-4 d-flex align-items-center ps-3 pe-0">
                                     <i class="fa-solid fa-list-check me-1"></i>
                                     <p class="m-0 sub-text">6 Lectures</p>
                                 </div>
@@ -110,10 +117,11 @@ export default {
                         </div>
                     </div>
                 </div>
-                <div class="col-4 d-flex justify-content-center align-items-start">
+                <div class="col-4 d-flex justify-content-center align-items-start p-0">
                     <div class="card" style="width: 18rem;">
-                        <img src="../assets/images/cathryn-lavery-67852-unsplash-370x200.jpg" class="card-img-top"
-                            alt="...">
+                        <img src="../assets/images/cathryn-lavery-67852-unsplash-370x200.jpg"
+                            class="card-img-top banner-image" alt="...">
+                        <h4 class="banner-price">$27</h4>
                         <div class="card-body">
                             <h5 class="card-title text-center">Make your Concept Right and Beatiful</h5>
                             <p class="card-text text-center course">Art</p>
@@ -123,7 +131,7 @@ export default {
                                     <i class="fa-solid fa-signal me-1"></i>
                                     <p class="m-0 sub-text">Intermediate</p>
                                 </div>
-                                <div class="col-4 d-flex align-items-center ps-1">
+                                <div class="col-4 d-flex align-items-center ps-3 pe-0">
                                     <i class="fa-solid fa-list-check me-1"></i>
                                     <p class="m-0 sub-text">6 Lectures</p>
                                 </div>
@@ -135,10 +143,11 @@ export default {
                         </div>
                     </div>
                 </div>
-                <div class="col-4 d-flex justify-content-start align-items-start">
+                <div class="col-4 d-flex justify-content-start align-items-start p-0">
                     <div class="card" style="width: 18rem;">
-                        <img src="../assets/images/photo-1475452779376-caebfb988090-370x200.jpeg" class="card-img-top"
-                            alt="...">
+                        <img src="../assets/images/photo-1475452779376-caebfb988090-370x200.jpeg"
+                            class="card-img-top banner-image" alt="...">
+                        <h4 class="banner-price">$82</h4>
                         <div class="card-body">
                             <h5 class="card-title text-center">Road Bike Manueal or How to Be a Champions</h5>
                             <p class="card-text text-center course">Bicycling</p>
@@ -161,16 +170,48 @@ export default {
                     </div>
                 </div>
             </div>
+            <p class="text-center loading">LOAD MORE</p>
         </div>
     </section>
 </template>
 <style scoped>
-#card {
+#card-main {
+    height: 1050px;
     background-color: #edf2f5;
 }
 
+.card {
+    position: relative;
+}
+
+.banner {
+    position: absolute;
+    color: white;
+    right: 2%;
+    top: 2%;
+    padding: 2px 6px;
+    background-color: #f09b23;
+    border-radius: 3px;
+    font-size: 0.6rem;
+}
+
+.banner-price {
+    position: absolute;
+    top: 20%;
+    left: 43%;
+    display: none;
+}
+
+.card:hover .banner-price {
+    display: block;
+}
+
+.card:hover .banner-image {
+    opacity: 0.4;
+}
+
 .height {
-    height: 850px;
+    height: 750px;
 }
 
 .sub-height {
@@ -189,6 +230,7 @@ h2 {
 .separator {
     height: 1px;
     border: 1px solid #e9e9e9;
+    margin-bottom: 10px;
 }
 
 .sub-text {
@@ -198,5 +240,15 @@ h2 {
 .fa-solid {
     font-size: 0.8rem;
     color: #fcb900;
+}
+
+.loading {
+    padding: 10px 10px;
+    background-color: #fcb900;
+    color: white;
+    border-radius: 50px;
+    margin: 10px 570px;
+    font-weight: bold;
+    cursor: pointer;
 }
 </style>
