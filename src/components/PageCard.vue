@@ -8,7 +8,7 @@ export default {
 </script>
 <template>
     <section id="card-main">
-        <h2 class="text-center py-5">New courses</h2>
+        <h2 class="text-center py-5">New Courses</h2>
         <div class="container">
             <div class="row height">
                 <div class="col-4 d-flex justify-content-end align-items-start p-0">
