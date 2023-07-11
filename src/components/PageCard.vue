@@ -182,6 +182,7 @@ export default {
 
 .card {
     position: relative;
+    cursor: pointer;
 }
 
 .banner {
