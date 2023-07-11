@@ -11,7 +11,7 @@ export default {
         <div class="container-fluid">
             <div class="row">
                 <div class="col-6 p-0 d-flex text-center flex-column">
-                    <h2>Get My Exclusive Investing Book just fot $19.50</h2>
+                    <h2>Get My Exclusive Investing Book just for $19.50</h2>
                     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maxime consectetur reprehenderit voluptatem
                         corrupti cumque qui ullam.
                     </p>
