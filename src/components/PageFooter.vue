@@ -35,7 +35,7 @@ export default {
                 </div>
                 <div class="col-3">
                     <h3>PAGES</h3>
-                    <ul class="d-flex flex-wrap">
+                    <ul class="d-flex flex-wrap ps-3">
                         <li v-for="page in pagesInfo"><a>{{ page }}</a></li>
                     </ul>
                 </div>

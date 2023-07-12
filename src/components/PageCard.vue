@@ -208,7 +208,7 @@ export default {
 }
 
 .card:hover .banner-image {
-    opacity: 0.4;
+    opacity: 0.3;
 }
 
 .height {
@@ -246,10 +246,13 @@ h2 {
 .loading {
     padding: 10px 10px;
     background-color: #fcb900;
-    color: white;
     border-radius: 50px;
     margin: 10px 570px;
     font-weight: bold;
     cursor: pointer;
+}
+
+.loading:hover {
+    color: white;
 }
 </style>
