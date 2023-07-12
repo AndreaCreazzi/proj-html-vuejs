@@ -29,8 +29,8 @@ export default {
                 <div class="col-3">
                     <h3>CONTACT</h3>
                     <p class="contacts-first">{{ contactsInfo.place }}</p>
-                    <p>{{ contactsInfo.phone }}</p>
-                    <p>{{ contactsInfo.fax }}</p>
+                    <p>Tel: {{ contactsInfo.phone }}</p>
+                    <p>Fax: {{ contactsInfo.fax }}</p>
                     <p class="contacts-last">{{ contactsInfo.email }}</p>
                 </div>
                 <div class="col-3">

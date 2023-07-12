@@ -41,6 +41,10 @@ export default {
     align-items: center;
 }
 
+img {
+    cursor: pointer;
+}
+
 .start {
     justify-content: start;
 }
