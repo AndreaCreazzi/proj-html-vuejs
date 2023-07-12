@@ -2,7 +2,14 @@
 export default {
     data() {
         return {
-
+            email: '',
+            arrEmail: []
+        }
+    },
+    methods: {
+        emailGet() {
+            this.arrEmail.push(this.email)
+            this.email = '';
         }
     }
 }
@@ -24,8 +31,9 @@ export default {
                                 off
                             </h4>
                             <div class="input-group px-5">
-                                <input type="email" class="form-control py-2" placeholder="Enter your E-mail">
-                                <button type="button" id="button-addon2">Subscribe</button>
+                                <input v-model="email" type="email" class="form-control py-2"
+                                    placeholder="Enter your E-mail" @keyup.enter="emailGet">
+                                <button @click="emailGet" type="button">Subscribe</button>
                             </div>
                         </div>
                         <div class="col-6">
