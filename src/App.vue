@@ -45,7 +45,7 @@ export default {
         fax: '+1 212 375 24 14',
         email: 'info@masterstudy.com'
       },
-      pagesInfo: ['blog', 'Courses', 'Home', 'Membership A..', 'Shortcodes', 'Typography'],
+      pagesInfo: ['Blog', 'Courses', 'Home', 'Membership A..', 'Shortcodes', 'Typography'],
       blogInfo: [
         {
           image: 'photo-1517520287167-4bbf64a00d66-150x150.jpeg',
