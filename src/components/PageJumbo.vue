@@ -25,7 +25,7 @@ export default {
                             </h4>
                             <div class="input-group px-5">
                                 <input type="email" class="form-control py-2" placeholder="Enter your E-mail">
-                                <button class="btn" type="button" id="button-addon2">Subscribe</button>
+                                <button type="button" id="button-addon2">Subscribe</button>
                             </div>
                         </div>
                         <div class="col-6">
@@ -127,5 +127,6 @@ button {
     border-radius: 50px;
     background-color: #2d4649;
     color: white;
+    padding: 10px;
 }
 </style>
