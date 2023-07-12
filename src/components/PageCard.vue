@@ -207,8 +207,12 @@ export default {
     display: block;
 }
 
+.card .banner-image {
+    transition: opacity 0.6s;
+}
+
 .card:hover .banner-image {
-    opacity: 0.3;
+    opacity: 0.2;
 }
 
 .height {
@@ -250,6 +254,7 @@ h2 {
     margin: 10px 570px;
     font-weight: bold;
     cursor: pointer;
+    transition: color 0.5s;
 }
 
 .loading:hover {

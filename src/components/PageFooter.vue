@@ -81,6 +81,12 @@ p {
 
 .fa-brands {
     margin-right: 20px;
+    transition: color 0.5s;
+    cursor: pointer;
+}
+
+.fa-brands:hover {
+    color: white;
 }
 
 .contacts-first {
@@ -95,6 +101,11 @@ p {
 ul li {
     flex-basis: calc(100% / 2);
     margin-bottom: 20px;
+    transition: color 0.5s;
+}
+
+li:hover {
+    color: white;
 }
 
 ul li a {
@@ -111,6 +122,12 @@ h4 {
     font-size: 15px;
     margin-bottom: 20px;
     padding-right: 70px;
+    transition: color 0.5s;
+    cursor: pointer;
+}
+
+h4:hover {
+    color: white;
 }
 
 .right-description {

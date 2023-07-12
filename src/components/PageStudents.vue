@@ -119,6 +119,7 @@ img {
 .fa-arrow-left,
 .fa-arrow-right {
     font-size: 30px;
+    cursor: pointer;
 }
 
 .fa-star {

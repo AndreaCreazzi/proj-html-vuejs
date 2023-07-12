@@ -97,6 +97,7 @@ h2 {
     border-left: 5px solid #fcb900;
     border-radius: 0%;
     cursor: pointer;
+    transition: background-color 0.5s;
 }
 
 .fa-solid {

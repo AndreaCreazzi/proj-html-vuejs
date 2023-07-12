@@ -67,6 +67,7 @@ ul li a {
     padding-bottom: 0.5rem;
     font-weight: bold;
     cursor: pointer;
+    transition: border-bottom 0.3s;
 }
 
 ul li a:hover,
@@ -81,5 +82,6 @@ i:hover {
 
 .fa-brands {
     margin: 0 5px;
+    transition: color 0.5s;
 }
 </style>

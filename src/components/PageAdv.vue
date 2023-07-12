@@ -81,6 +81,7 @@ p {
 .fa-solid {
     margin: 12px auto;
     cursor: pointer;
+    transition: color 0.5s;
 }
 
 .fa-solid:hover {
