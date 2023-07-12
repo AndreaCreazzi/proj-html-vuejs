@@ -3,13 +3,27 @@ export default {
     data() {
         return {
             email: '',
-            arrEmail: []
+            arrEmail: [],
+            seconds: 60,
+            minutes: 47
         }
+    },
+    mounted() {
+        this.startTimer();
     },
     methods: {
         emailGet() {
             this.arrEmail.push(this.email)
             this.email = '';
+        },
+        startTimer() {
+            setInterval(() => {
+                this.seconds--;
+                if (this.seconds === 0) {
+                    this.seconds = 60;
+                    this.minutes--;
+                }
+            }, 1000);
         }
     }
 }
@@ -47,11 +61,11 @@ export default {
                                     <h5>Hours</h5>
                                 </div>
                                 <div class="col-3">
-                                    <h2>47</h2>
+                                    <h2>{{ minutes }}</h2>
                                     <h5>Minutes</h5>
                                 </div>
                                 <div class="col-3">
-                                    <h2>33</h2>
+                                    <h2>{{ seconds }}</h2>
                                     <h5>Seconds</h5>
                                 </div>
                             </div>
