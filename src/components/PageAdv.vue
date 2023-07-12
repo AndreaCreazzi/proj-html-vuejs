@@ -82,4 +82,8 @@ p {
     margin: 12px auto;
     cursor: pointer;
 }
+
+.fa-solid:hover {
+    color: #fcb900;
+}
 </style>
